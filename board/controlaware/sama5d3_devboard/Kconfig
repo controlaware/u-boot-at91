@@ -1,0 +1,12 @@
+if TARGET_SAMA5D3_DEVBOARD
+
+config SYS_BOARD
+	default "sama5d3_devboard"
+
+config SYS_VENDOR
+	default "controlaware"
+
+config SYS_CONFIG_NAME
+	default "sama5d3_devboard"
+
+endif
